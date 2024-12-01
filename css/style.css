@@ -684,7 +684,7 @@ footer h6 {
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Vertically center logo and text */
     justify-content: center; /* Horizontally center content */
-    font-size: 26px;
+    font-size: clamp(18px, 4vw, 26px);
     padding: 0;
     margin: 0 auto; /* Center h6 itself within the parent */
     text-align: center; /* Ensure text alignment */
