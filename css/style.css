@@ -2664,10 +2664,12 @@ h6{
     font-size: 2.8rem;
     line-height: 3rem;
 }
-.intro06{
-    width: 450px;
-    margin: 20px auto;
-    /* box-shadow: 0px 0px 20px #00b0ff; */
+.intro06 {
+    width: 100%; /* 화면 크기에 맞게 반응 */
+    max-width: 450px; /* 최대 너비를 450px로 제한 */
+    height: auto; /* 비율을 유지하면서 높이를 자동으로 조정 */
+    display: block; /* 중앙 정렬 및 여백 문제 제거 */
+    margin: 20px auto; /* 상단과 하단 여백 추가 */
 }
 .intro07{
     width: 100%;
